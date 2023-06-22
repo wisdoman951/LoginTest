@@ -1,6 +1,4 @@
-# LoginTest
- 
-# Steps run locally 
+# Steps to run locally 
 1. In App.config, please cset up connection peoperties properly,
    for example, in App.config there is a <appSettings> block, which is providing "keys" for connection
    		<add key="ConnectionString" value="Server=localhost;Database=gas;Uid=root;Pwd=88888888"/>
