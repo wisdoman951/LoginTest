@@ -15,14 +15,14 @@ In App.config, set up properties.
 # DATA
 It might come in handy, here is the sql create table schema and test data insert schema
 
-## For creating table
+### For creating table
 CREATE TABLE manager_account (
   Manager_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   Email VARCHAR(100) NOT NULL,
   Password VARCHAR(45) NOT NULL
 );
 
-## For insert test data
+### For insert test data
 INSERT INTO manager_account (Email, Password)
 VALUES
   ('oo', 'oo'),
